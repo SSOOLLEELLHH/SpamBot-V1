@@ -15,7 +15,7 @@ print("9. inter = 0.9")
 print("10. inter = 10")
 inter = input("Selectionnez l'interval entre les messages : ")
 
-subprocess.call(["open", "-a", "Firefox"])
+time.sleep(5)
 
 keyboard = Controller()
 
